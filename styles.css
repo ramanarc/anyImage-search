@@ -45,3 +45,29 @@ input{
   outline: none;
   border: transparent;
 }
+
+section{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 32px;
+  padding: 36px;
+}
+
+.result-box .image{
+  background-color: #eee;
+  height: 400px;
+}
+
+h2.content-box{
+  background-color: #eee;
+  height: 16px;
+  width: 70%;
+  margin-top: 12px;
+}
+
+p.content-box{
+  background-color: #eee;
+  height: 16px;
+  width: 40%;
+  margin-top: 12px;
+}
