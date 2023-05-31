@@ -3,8 +3,8 @@ const inputTag = formTag.querySelector('input')
 const resultsTag = document.querySelector('.results');
 
 
-
 const url = 'https://api.unsplash.com/search/photos?per_page=24&query='
+const accessKey = "FLi6YA90kfg-x5o8oAbPxRgvXwvHp0TemWf_4Kt3p7g"
 
 // Search Unsplash API
 function searchUnsplash(term) {
